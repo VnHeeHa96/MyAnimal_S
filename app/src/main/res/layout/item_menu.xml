@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ln_item_menu"
+    android:layout_width="350dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_farm_2"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:id="@+id/fr_mammal"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:src="@drawable/bg_mamal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="15dp"
+                android:text="🐻MAMMAL🐼🐯"
+                android:textColor="@color/red"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </FrameLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:id="@+id/fr_sea"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:focusable="true">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:src="@drawable/bg_sea" />
+
+            <TextView
+                android:id="@+id/tv_sea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="🐟🐳SEA🐠🦑"
+                android:textColor="@color/Blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </FrameLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+
+            android:id="@+id/fr_bird"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:id="@+id/tv_bird"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:src="@drawable/bg_bird" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="15dp"
+                android:text="🐤🦃BIRD🐥🦅"
+                android:textColor="@color/green"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </FrameLayout>
+    </TableRow>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="sans-serif-light"
+        android:text="🐾🐾AnimalSound🔊🔊"
+        android:textColor="@color/colorStatusBar"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="sans-serif-light"
+        android:text="💞💞Version With Luv💞💞"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="italic" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Animal Sound</string>
+    <string name="animal_sound">Animal Sound</string>
+    <string name="anm_s">Animal Sound</string>
+    <string name="elephent">Elephent</string>
+    <string name="BACK">BACK</string>
+    <string name="txt">\???</string>
+    <string name="score_0">SCORE: 0</string>
+</resources>

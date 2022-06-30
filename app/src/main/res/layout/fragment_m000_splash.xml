@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorStatusBar"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_flash"
+        tools:ignore="ContentDescription" />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UseCompoundDrawables">
+    <ImageView
+        android:id="@+id/im_icon"
+        android:layout_width="100dp"
+        android:src="@drawable/ic_chick"
+        android:layout_height="100dp"
+        tools:ignore="ContentDescription" />
+        <TextView
+            android:id="@+id/tv_title"
+            android:textSize="24sp"
+            android:fontFamily="sans-serif"
+            android:layout_width="wrap_content"
+            android:text="@string/anm_s"
+            android:textColor="@color/white"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            android:shadowColor="@color/purple_500"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</FrameLayout>

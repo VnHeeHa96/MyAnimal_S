@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ln_drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/actionbar"
+            layout="@layout/action_bar"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/ln_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/colorStatusBar"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="vertical">
+
+        <include layout="@layout/item_menu" android:id="@+id/menu"/>
+    </LinearLayout>
+</androidx.drawerlayout.widget.DrawerLayout>
